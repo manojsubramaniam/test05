@@ -19,7 +19,7 @@ pipeline{
 			}
 		}
 		
-		
+	/*	
 	         stage("Removing the Existing Container"){
 		     	steps {
 				
@@ -28,7 +28,7 @@ pipeline{
 					docker rm $(docker ps -a -q --filter="name=nginx1234")
 				'''
 			}
-		}
+		} */
 
 		stage("build docker image"){
 		     	steps {
